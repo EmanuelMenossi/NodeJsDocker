@@ -22,17 +22,6 @@ app.get('/liveness', (req, res) => {
         });
 });
 
-app.get('/readiness', (req, res) => {
-    return res
-        .status(200)
-        .json({
-            message: "Meu servidor está pronto para receber requisições!",
-            platform: os.platform(),
-            freemem: os.freemem(),
-            homedir: os.homedir(),
-            date: new Date().getTime()
-         })
-    })
 
     app.get('/consulta-dados', (req, res) => {
         return res
