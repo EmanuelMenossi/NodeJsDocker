@@ -16,7 +16,8 @@ docker run -d --name nodejs-container --network=mynetwork -p 3000:3000 -e DB_HOS
 links: 
 https://github.com/EmanuelMenossi/NodeJsDocker/tree/main
 https://hub.docker.com/r/emanuelmenossi/mysqlatv04
-https://hub.docker.com/r/emanuelmenossi/mysqlatv04
+https://hub.docker.com/r/emanuelmenossi/aula-atv04
+
 
 --------------------------------------------------------------------
 OBS: O SISTEMA GERA AUTOMATICAMENTE
